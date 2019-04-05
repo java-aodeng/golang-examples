@@ -1,3 +1,3 @@
-<h1><a href="#">Go-Go-Go</a></h1>
+<h1><a href="#">Anima</a></h1>
 
-> Golang......慢慢学，不急
+Golang Study notes.:penguin: :penguin:
