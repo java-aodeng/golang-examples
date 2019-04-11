@@ -1,6 +1,6 @@
 <h1><a href="https://github.com/java-aodeng/anima">Anima</a></h1>
 
-Golang Study notes.:penguin: :penguin:
+Anima :penguin: is my study notes for learning Golang.
 
 anima 源自拉丁文，意义“灵魂”或“精神”
 
