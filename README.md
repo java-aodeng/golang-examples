@@ -5,3 +5,5 @@
 <a href="https://github.com/java-aodeng/golang-examples/blob/master/go-02/1.md">第02章 变量，常量以及与其他语言的差异</a>
 
 <a href="https://github.com/java-aodeng/golang-examples/blob/master/go-03/1.md">第03章 数据类型</a>
+
+![](https://i.loli.net/2019/06/13/5d01a6176241f69583.jpg)
