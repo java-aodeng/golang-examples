@@ -6,10 +6,10 @@
 
 <a href="https://github.com/java-aodeng/golang-examples/blob/master/go-03/1.md">第03章 数据类型</a>
 
+<a href="https://github.com/java-aodeng/golang-examples/blob/master/go-04/1.md">第04章 运算符</a>
+
 ## golang星球学习基地
 ![](https://i.loli.net/2019/06/13/5d01b9fbec81470229.png)
-
-第04章 运算符
 
 第05章 条件和循环
 
