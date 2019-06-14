@@ -110,7 +110,7 @@
 - [低调小熊猫QQ群](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
 - [我的Github链接](https://github.com/java-aodeng)
 - [我的个人博客](https://aodeng.cc)
-- [开源协议GPL-v3.0](https://github.com/java-aodeng/hope/blob/master/LICENSE)
+- [开源协议GPL-v3.0](https://github.com/java-aodeng/golang-examples/blob/master/LICENSE)
 - [低调小熊猫Telegram群](https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ)
 - [我的微信公众号(低调小熊猫)](https://mp.weixin.qq.com/s/l5t8WSCG_-shiD4BPpLYiw) 
 - [我的Gitee链接](https://gitee.com/java-aodeng)
