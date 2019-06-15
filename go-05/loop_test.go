@@ -19,5 +19,27 @@ func TestCondition(t *testing.T)  {
 }
 
 func TestSwitch(t *testing.T)  {
+	for i:=0;i<5 ;i++  {
+		switch i {
+		case 0,2:
+			t.Log("111111")
+		case 1,3:
+			t.Log("222222")
+		default:
+			t.Log("000000")
+		}
+	}
+}
 
+func TestSwitch2(t *testing.T)  {
+	for i:=0;i<5 ;i++  {
+		switch {
+		case i%2==0:
+			t.Log("111111%")
+		case i%2==1:
+			t.Log("222222%")
+		default:
+			t.Log("000000")
+		}
+	}
 }
