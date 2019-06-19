@@ -42,3 +42,12 @@ func TestSliceGrowing(t *testing.T)  {
 		t.Log(len(s),cap(s))
 	}
 }
+
+//共享数组修改会影响使用的数据，容易出错
+func TestSliceShare(t *testing.T)  {
+	s:=[]string{"1","2","3","4","5"}
+	Q:=s[3:5]
+	t.Log(Q,len(Q),cap(Q))
+	su:=s[1:3]
+	t.Log(su,len(su),cap(su))
+}
