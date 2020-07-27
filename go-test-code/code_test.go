@@ -1,7 +1,11 @@
 package go_test_code
 
 import (
+	//自定义包名aodeng
 	aodeng "fmt"
+	"os"
+	"runtime"
+	//test包
 	"testing"
 )
 
@@ -11,4 +15,31 @@ func TestCode(t *testing.T) {
 	//类型 B 的值 = 类型 B(类型 A 的值)
 	b := int(a)
 	aodeng.Print(b)
+}
+
+//常量
+func TestCode2(t *testing.T) {
+	const Pi = 3.14159
+	//显式类型定义：
+	const b1 string = "abc"
+	//隐式类型定义：
+	const b2 = "abc"
+	t.Log(Pi)
+	t.Log(b1)
+	t.Log(b2)
+}
+
+//全局变量
+var (
+	a int
+	b bool
+	c string
+)
+
+//下面是如何通过runtime包在运行时获取所在的操作系统类型，以及如何通过 os 包中的函数 os.Getenv() 来获取环境变量中的值，并保存到 string 类型的局部变量 path 中
+func TestCode3(t *testing.T) {
+	var goos string = runtime.GOOS
+	aodeng.Printf("The operating system is: %s\n", goos)
+	path := os.Getenv("PATH")
+	aodeng.Printf("Path is %s\n", path)
 }
