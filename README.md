@@ -7,6 +7,13 @@
 
 意义：分享知识，提升自己
 
+<p align="center">
+<a href="https://github.com/java-aodeng"><img alt="Author" src="https://img.shields.io/badge/author-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%AB-blue.svg"/></a>
+<a href="https://jq.qq.com/?_wv=1027&k=574chhz"><img alt="QQ群" src="https://img.shields.io/badge/chat-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%ABQQ%E7%BE%A4-yellow.svg"/></a>
+<a href="https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ"><img alt="Telegram" src="https://img.shields.io/badge/telegram-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%AB--%E5%AE%98%E6%96%B9%E9%83%A8%E8%90%BD-orange.svg"/></a>
+</p>
+
+
 <h1><a href="https://github.com/java-aodeng/golang-examples">Go语言从入门到放弃</a></h1>
 
 <a href="https://github.com/java-aodeng/golang-examples/blob/master/go-01/1.md">第01章 关于 Go 语言的介绍</a> ：<a href="https://t.zsxq.com/fuRr33f">星球链接</a>
