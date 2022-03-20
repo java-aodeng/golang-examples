@@ -1,4 +1,4 @@
-## .序：
+## 序
 开源协议：GPL-3.0
 
 作者：[<a href="https://github.com/java-aodeng">低调小熊猫</a>]
@@ -108,4 +108,4 @@
 
 第50章 Chaos Engineering 
 
-结束 ：<a href="https://t.zsxq.com/qvvzZb2">星球链接</a>
+结束 <a href="https://t.zsxq.com/qvvzZb2">星球链接</a>
