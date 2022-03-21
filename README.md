@@ -26,7 +26,7 @@
 
 [第09章 字符串](https://github.com/java-aodeng/golang-examples/blob/master/go-09/string_test.go) 
 
-[第10章 Go与语言的函数 第11章 可变参数和defer](https://github.com/java-aodeng/golang-examples/blob/master/go-10/func_test.go)
+[第10章 Go与语言的函数 第11章 可变参数和defer](https://github.com/java-aodeng/golang-examples/blob/master/go-10-11/func_test.go)
 
 第12章 行为的定义和实现
 

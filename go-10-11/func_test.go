@@ -1,4 +1,4 @@
-package go_10
+package go_10_11
 
 import (
 	"fmt"
