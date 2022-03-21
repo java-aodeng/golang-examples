@@ -22,7 +22,7 @@
 <a href="https://github.com/java-aodeng/golang-examples/blob/master/go-07/1.md">第07章 Map 声明、元素访问及遍历</a> 
 
 
-第08章 Map与工厂模式，在Go语言中实现Set 
+[第08章 Map与工厂模式，在Go语言中实现Set](https://github.com/java-aodeng/golang-examples/blob/master/go-08/map_ext_test.go) 
 
 第09章 字符串 
 
