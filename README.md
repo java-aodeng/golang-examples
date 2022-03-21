@@ -28,7 +28,7 @@
 
 [第10章 Go与语言的函数 第11章 可变参数和defer](https://github.com/java-aodeng/golang-examples/blob/master/go-10-11/func_test.go)
 
-第12章 行为的定义和实现
+[第12章 行为的定义和实现](https://github.com/java-aodeng/golang-examples/blob/master/go-12/encap_test.go)
 
 第13章 Go语言的相关接口
 
