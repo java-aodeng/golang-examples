@@ -30,7 +30,7 @@
 
 [第12章 行为的定义和实现](https://github.com/java-aodeng/golang-examples/blob/master/go-12/encap_test.go)
 
-第13章 Go语言的相关接口
+[第13章 Go语言的相关接口](https://github.com/java-aodeng/golang-examples/blob/master/go-13/interface_test.go)
 
 第14章 扩展与复用 
 
