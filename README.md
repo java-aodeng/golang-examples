@@ -5,7 +5,11 @@
 
 意义：分享知识，提升自己
 
+目标：为了找个java-go双语言开发的**高工资**职位
+
 <h1><a href="https://github.com/java-aodeng/golang-examples">Go语言从入门到放弃</a></h1>
+
+> 基础部分，看不懂的话，这边建议直接放弃
 
 <a href="https://github.com/java-aodeng/golang-examples/blob/master/go-01/1.md">第01章 关于 Go 语言的介绍</a> 
 
@@ -21,6 +25,7 @@
 
 <a href="https://github.com/java-aodeng/golang-examples/blob/master/go-07/1.md">第07章 Map 声明、元素访问及遍历</a> 
 
+> 简单部分，直接看代码，就不加注释了
 
 [第08章 Map与工厂模式，在Go语言中实现Set](https://github.com/java-aodeng/golang-examples/blob/master/go-08/map_ext_test.go) 
 
@@ -32,7 +37,9 @@
 
 [第13章 Go语言的相关接口](https://github.com/java-aodeng/golang-examples/blob/master/go-13/interface_test.go)
 
-第14章 扩展与复用 
+> 后面的逐渐有趣了，尽量加上注释:)
+
+[第14章 扩展与复用](https://github.com/java-aodeng/golang-examples/blob/master/go-14/extension_test.go) 
 
 第15章 不一样的接口类型，一样的多态 
 
