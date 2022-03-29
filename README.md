@@ -5,7 +5,7 @@
 
 意义：分享知识，提升自己
 
-目标：为了找个java-go双语言开发的**高工资**职位
+目标：为了找个java-go双语言开发的**高工资**职位，突破突破自己
 
 <h1><a href="https://github.com/java-aodeng/golang-examples">Go语言从入门到放弃</a></h1>
 
