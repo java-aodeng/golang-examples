@@ -19,7 +19,7 @@ func (p *Pig) MyNameIs(name string) {
 	fmt.Print("my name is" + name)
 }
 
-//这是一条狗类 继承于猪类
+//这是一条狗类 继承于猪类 go继承没看到啥关键字，就直接像下面这样写就行了
 type Dog struct {
 	Pig
 }
