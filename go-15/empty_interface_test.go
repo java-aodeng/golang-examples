@@ -25,10 +25,13 @@ func TestEmptyInterfaceAssertion(t *testing.T) {
 	DoSomething(1)
 	fmt.Print("\n")
 	DoSomething("1")
+	fmt.Print("\n")
+	DoSomething(1.1)
 }
 
 //运行结果
 //=== RUN   TestEmptyInterfaceAssertion
 //Integer类型的1
-//String类型的1--- PASS: TestEmptyInterfaceAssertion (   0.00s)
+//String类型的1
+//未知类型的--- PASS: TestEmptyInterfaceAssertion (0.     00s)
 //PASS
