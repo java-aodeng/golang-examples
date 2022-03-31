@@ -41,7 +41,7 @@
 
 [第14章 扩展与复用](https://github.com/java-aodeng/golang-examples/blob/master/go-14/extension_test.go) 
 
-第15章 不一样的接口类型，一样的多态 
+[第15章 不一样的接口类型，一样的多态](https://github.com/java-aodeng/golang-examples/blob/master/go-15/empty_interface_test.go) 
 
 第16章 编写好的错误处理 
 
