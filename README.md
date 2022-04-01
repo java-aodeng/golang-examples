@@ -3,9 +3,7 @@
 
 作者：[<a href="https://github.com/java-aodeng">低调小熊猫</a>]
 
-意义：分享知识，提升自己
-
-目标：为了找个java-go双语言开发的**高工资**职位，突破突破自己
+地址：https://github.com/java-aodeng/golang-examples
 
 <h1><a href="https://github.com/java-aodeng/golang-examples">Go语言从入门到放弃</a></h1>
 
@@ -43,7 +41,7 @@
 
 [第15章 不一样的接口类型，一样的多态](https://github.com/java-aodeng/golang-examples/blob/master/go-15/empty_interface_test.go) 
 
-第16章 编写好的错误处理 
+[第16章 编写好的错误处理](https://github.com/java-aodeng/golang-examples/blob/master/go-16/err_test.go) 
 
 第17章 panic和recover 
 
