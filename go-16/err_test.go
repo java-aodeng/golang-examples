@@ -26,7 +26,7 @@ func GetFibonacci(n int) ([]int, error) {
 		return nil, LargerThenHundredError
 	}
 	fibList := []int{1, 1}
-	//实现个小学数学题，斐波那契列方法
+	//斐波那契列，小学数学题
 	for i := 2; i < n; i++ {
 		fibList = append(fibList, fibList[i-2]+fibList[i-1])
 	}
