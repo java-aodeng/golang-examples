@@ -45,7 +45,7 @@
 
 [第16章 编写好的错误处理](https://github.com/java-aodeng/golang-examples/blob/master/go-16/err_test.go) 
 
-第17章 panic和recover 
+[第17章 panic和recover](https://github.com/java-aodeng/golang-examples/blob/master/go-17/panic_recover_test.go) 
 
 第18章 构建可复用的模块（包）
 
