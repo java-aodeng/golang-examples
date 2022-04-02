@@ -7,6 +7,8 @@
 
 意义：分享知识，提高自己
 
+ps：白天上班，晚上更新，尽量日更，比心
+
 <h1><a href="https://github.com/java-aodeng/golang-examples">Go语言从入门到放弃</a></h1>
 
 > 基础部分，看不懂的话，这边建议直接放弃
