@@ -1,14 +1,13 @@
 package client
 
 import (
-	cm "github.com/easierway/concurrent_map" //还可以导入第三方的包，这是导入一个开源项目的包，会自动git clone到本地
-	"series"                                 //这是导入自定义的包 路径，golang-examples\src\series
+	"series" //1.这是导入自定义的包 路径，golang-examples\src\series
 	"testing"
 )
 
 //package（包)
 //1.基本复用模块单元
-//2以首字母大写来表明可被包外代码访问
+//2.以首字母大写来表明可被包外代码访问
 //3.代码的package可以和所在目录不一致
 //4.同一目录里的Go代码package要保持一致
 //5.创建包前需要配置项目GOPATH路径 配置教程 https://www.freesion.com/article/4765574656/
@@ -18,11 +17,13 @@ func TestPackage(t *testing.T) {
 	//调用golang-examples\src\series包里面的的Square函数
 	t.Log(series.Square(1))
 
-	//t.Log(series.square(1)) 运行结果：undefined: series.square 小写的函数外部不能访问
+	//小写的函数外部不能访问
+	//t.Log(series.square(1)) 运行结果：undefined: series.square
 
-	m := cm.CreateConcurrentMap(99)
-	m.Set(cm.StrKey("key"), 10)
-	t.Log(m.Get(cm.StrKey("key")))
+	//使用远程的包函数
+	//m := cm.CreateConcurrentMap(99)
+	//m.Set(cm.StrKey("key"), 10)
+	//t.Log(m.Get(cm.StrKey("key")))
 }
 
 //运行结果
