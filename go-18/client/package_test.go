@@ -1,7 +1,8 @@
 package client
 
 import (
-	"series" //1.这是导入自定义的包 路径，golang-examples\src\series
+	cm "github.com/easierway/concurrent_map" //2.还可以导入第三方的包，这是导入一个开源项目的包，会自动git clone到本地
+	"series"                                 //1.这是导入自定义的包 路径，golang-examples\src\series
 	"testing"
 )
 
@@ -21,9 +22,9 @@ func TestPackage(t *testing.T) {
 	//t.Log(series.square(1)) 运行结果：undefined: series.square
 
 	//使用远程的包函数
-	//m := cm.CreateConcurrentMap(99)
-	//m.Set(cm.StrKey("key"), 10)
-	//t.Log(m.Get(cm.StrKey("key")))
+	m := cm.CreateConcurrentMap(99)
+	m.Set(cm.StrKey("key"), 10)
+	t.Log(m.Get(cm.StrKey("key")))
 }
 
 //运行结果
