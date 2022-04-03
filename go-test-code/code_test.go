@@ -6,7 +6,6 @@ import (
 	"math"
 	"os"
 	"runtime"
-	//test包
 	"testing"
 )
 
