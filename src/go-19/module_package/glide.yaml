@@ -1,0 +1,5 @@
+package: go-19/module_package/get_remote_pack_test.go
+import: []
+testImport:
+- package: github.com/easierway/concurrent_map
+  version: ^1.0.0

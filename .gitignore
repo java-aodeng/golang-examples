@@ -22,4 +22,8 @@
 /nbdist/
 /.nb-gradle/
 
-##
+## 忽略包文件，不提交
+bin
+pkg
+src/github.com
+src/go-19/module_package/vendor
