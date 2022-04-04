@@ -12,7 +12,7 @@ import (
 //因为 go 编译器默认会在当前目录中查找src目录下package。 如果没有src目录，编译器就找不到相应的package
 
 /*
-
+---->理论部分
 依赖管理
 Go未解决的依赖问题
 1.同一环境下，不同项目使用同一包的不同版本
@@ -33,12 +33,17 @@ dodep：https://github.com/tools/godep
 glide：https://github.com/Masterminds/glide
 dep：https://github.com/golang/dep
 
+---->操作部分
 window安装glide教程： https://www.cnblogs.com/nickchou/p/8955180.html
-安装成功后，我们把src/github.com/easierway包的源文件删除，
-在go-19/module_package目录下执行
+安装成功后，我们把src/github.com/easierway包的源文件删除，运行下面代码会报错找不到包
+然后在go-19/module_package目录下执行
+
+##初始化包管理
 glide init
+##下载项目依赖
 glide install
-会重新下载包源文件到项目go-19/vendor目录下
+
+会重新下载包源文件到项目go-19/module_package/vendor目录下,glide.yaml文件就类似于maven文件，版本管理
 
 遇到的问题：解决go build不去vendor下查找包的问题： https://www.jb51.net/article/202458.htm
 问题总结：go 编译器默认会在当前目录中查找src目录下package。如果没有src目录，编译器就找不到相应的package
