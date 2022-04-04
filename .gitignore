@@ -26,3 +26,5 @@
 bin
 pkg
 src/github.com
+##这一章节包文件不大，直接上传，方便理解
+##src/go-19/module_package/vendor/*
