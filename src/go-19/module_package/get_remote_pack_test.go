@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-//因为 go 编译器默认会在当前目录中查找src目录下package。 果没有src目录，编译器就找不到相应的package
+//因为 go 编译器默认会在当前目录中查找src目录下package。 如果没有src目录，编译器就找不到相应的package
 //所以关于包的章节都放在src目录下面了
 
 /*依赖管理
