@@ -51,7 +51,7 @@ ps：白天上班，晚上更新，尽量日更，比心
 
 [第18章 构建可复用的模块（包）](https://github.com/java-aodeng/golang-examples/blob/master/go-18/client/package_test.go)
 
-[第19章 依赖管理](https://github.com/java-aodeng/golang-examples/blob/master/go-19/module_package/get_remote_pack_test.go) 
+[第19章 依赖管理](https://github.com/java-aodeng/golang-examples/blob/master/src/go-19/module_package/get_remote_pack_test.go) 
 
 第20章 协程机制
 
