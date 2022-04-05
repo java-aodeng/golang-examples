@@ -7,7 +7,7 @@
 
 意义：分享知识，提高自己
 
-ps：java做了10年，实在是想换换口味了，白天上班，晚上更新，尽量日更，比心
+ps：java做了5年，实在是想换换口味了，白天上班，晚上更新，尽量日更，比心
 
 <h1><a href="https://github.com/java-aodeng/golang-examples">Go语言从入门到精通</a></h1>
 
