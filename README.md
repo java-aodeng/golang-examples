@@ -7,11 +7,9 @@
 
 意义：分享知识，提高自己
 
-ps：白天上班，晚上更新，尽量日更，比心
+ps：白天工地搬砖，晚上更新，尽量日更，比心
 
 <h1><a href="https://github.com/java-aodeng/golang-examples">Go语言从入门到精通</a></h1>
-
-> 基础部分，看不懂的话，这边建议直接放弃
 
 <a href="https://github.com/java-aodeng/golang-examples/blob/master/go-01/1.md">第01章 关于 Go 语言的介绍</a> 
 
@@ -25,9 +23,7 @@ ps：白天上班，晚上更新，尽量日更，比心
 
 <a href="https://github.com/java-aodeng/golang-examples/blob/master/go-06/1.md">第06章 数组和切片</a>
 
-<a href="https://github.com/java-aodeng/golang-examples/blob/master/go-07/1.md">第07章 Map 声明、元素访问及遍历</a> 
-
-> 简单部分，直接看代码，就不加注释了
+<a href="https://github.com/java-aodeng/golang-examples/blob/master/go-07/1.md">第07章 Map 声明、元素访问及遍历</a>
 
 [第08章 Map与工厂模式，在Go语言中实现Set](https://github.com/java-aodeng/golang-examples/blob/master/go-08/map_ext_test.go) 
 
@@ -39,8 +35,6 @@ ps：白天上班，晚上更新，尽量日更，比心
 
 [第13章 Go语言的相关接口](https://github.com/java-aodeng/golang-examples/blob/master/go-13/interface_test.go)
 
-> 后面的逐渐有趣了，尽量加上注释:)
-
 [第14章 扩展与复用](https://github.com/java-aodeng/golang-examples/blob/master/go-14/extension_test.go) 
 
 [第15章 不一样的接口类型，一样的多态](https://github.com/java-aodeng/golang-examples/blob/master/go-15/empty_interface_test.go) 
@@ -51,9 +45,7 @@ ps：白天上班，晚上更新，尽量日更，比心
 
 [第18章 构建可复用的模块（包）](https://github.com/java-aodeng/golang-examples/blob/master/go-18/client/package_test.go)
 
-[第19章 依赖管理](https://github.com/java-aodeng/golang-examples/blob/master/src/go-19/module_package/get_remote_pack_test.go) 
-
-> 并发编程
+[第19章 依赖管理](https://github.com/java-aodeng/golang-examples/blob/master/src/go-19/module_package/get_remote_pack_test.go)
 
 [第20章 协程机制](https://github.com/java-aodeng/golang-examples/blob/master/go-20/groutine_test.go)
 
