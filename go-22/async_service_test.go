@@ -7,9 +7,10 @@ import (
 )
 
 /*
-CSP并发机制 当成java的异步操作理解就行了
+CSP并发机制
+当成java的异步操作理解就行了,而CSP模式则是通过Channel进行通讯的，更松耦合一些
 
-## Channel
+Channel（管道，像理解消息队列的管道一样理解就行了）
 - Channel是Go中的一个核心类型，你可以把它看成一个管道，通过它并发核心单元就可以发送或者接收数据进行通讯
 - 容量(capacity)代表Channel容纳的最多的元素的数量，代表Channel的缓存的大小。
 - 如果没有设置容量，或者容量设置为0, 说明Channel没有缓存，只有sender和receiver都准备好了后它们的通讯
