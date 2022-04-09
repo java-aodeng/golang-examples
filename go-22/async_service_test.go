@@ -17,7 +17,7 @@ Channel（管道，像理解消息队列的管道一样理解就行了）
 
 ##如图：普通Channel 与 设置容量了Buffered Channels的区别
 图左是普通Channel  图右是设置容量了Buffered Channels
-https://github.com/java-aodeng/golang-examples/blob/master/go-22/channel.png
+图片路径：https://github.com/java-aodeng/golang-examples/blob/master/go-22/channel.png
 
 */
 
