@@ -53,7 +53,7 @@ ps：白天上班，晚上更新，尽量日更，比心
 
 [第22章 CSP并发机制](https://github.com/java-aodeng/golang-examples/blob/master/go-22/async_service_test.go)
 
-第23章 多路由选择和超时
+[第23章 多路由选择和超时](https://github.com/java-aodeng/golang-examples/blob/master/go-23/select_test.go)
 
 第24章 channel的关闭和广播 
 
