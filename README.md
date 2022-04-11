@@ -55,7 +55,7 @@ ps：白天上班，晚上更新，尽量日更，比心
 
 [第23章 多路由选择和超时](https://github.com/java-aodeng/golang-examples/blob/master/go-23/select_test.go)
 
-第24章 channel的关闭和广播 
+[第24章 channel的关闭和广播](https://github.com/java-aodeng/golang-examples/blob/master/go-24/channel_close_test.go) 
 
 第25章 任务的取消 
 
