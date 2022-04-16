@@ -57,7 +57,7 @@ ps：白天上班，晚上更新，尽量日更，比心
 
 [第24章 channel的关闭和广播](https://github.com/java-aodeng/golang-examples/blob/master/go-24/channel_close_test.go) 
 
-第25章 任务的取消 
+[第25章 任务的取消](https://github.com/java-aodeng/golang-examples/blob/master/go-25/cancel_test.go) 
 
 第26章 Context与任务取消
 
