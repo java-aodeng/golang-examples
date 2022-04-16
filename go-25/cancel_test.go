@@ -39,7 +39,7 @@ func TestCancel(t *testing.T) {
 		}(i, cancelChan)
 	}
 	//关闭渠道 关闭之后上面多线程里面会自动关闭循环
-	//cancel_2(cancelChan)
+	cancel_2(cancelChan)
 
 	time.Sleep(time.Second * 10)
 }
