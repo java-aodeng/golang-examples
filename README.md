@@ -59,7 +59,7 @@ ps：白天上班，晚上更新，尽量日更，比心
 
 [第25章 任务的取消](https://github.com/java-aodeng/golang-examples/blob/master/go-25/cancel_test.go) 
 
-第26章 Context与任务取消
+[第26章 Context与任务取消](https://github.com/java-aodeng/golang-examples/blob/master/go-26/cancel_by_context_test.go)
 
 第27章 只运行一次
 
