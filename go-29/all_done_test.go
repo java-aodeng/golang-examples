@@ -1,4 +1,4 @@
-package go_28
+package go_29
 
 import (
 	"fmt"
@@ -8,10 +8,9 @@ import (
 )
 
 /*
-仅需任意任务完成
+所有任务完成
 
-举例：我们搜索一个问题，同时触发google，百度，必应三个程序去搜索，只要有一个程序搜索到结果，就可以返回结果了
-
+与上一章刚好相反，要程序所有协程执行完了，才返回结果
 */
 
 //一个简单的函数，打印传入的id
@@ -20,8 +19,8 @@ func runTask(id int) string {
 	return fmt.Sprintf("当前返回id为%d", id)
 }
 
-//返回第一个传入的数据id
-func FirstResponse() string {
+//所有任务完成才返回
+func AllResponse() string {
 	numOfRunner := 10
 	//这里创建一个Buffered Channels，防止协程阻塞，很重要
 	ch := make(chan string, numOfRunner)
@@ -31,21 +30,38 @@ func FirstResponse() string {
 			ch <- ret
 		}(i)
 	}
-	return <-ch
+
+	finalRet := ""
+	for j := 0; j < numOfRunner; j++ {
+		finalRet += <-ch + "\n"
+	}
+
+	return finalRet
 }
 
 func TestFirsResponse(t *testing.T) {
 	fmt.Println("Before", runtime.NumGoroutine())
-	fmt.Println(FirstResponse())
+	fmt.Println(AllResponse())
 	time.Sleep(time.Second * 1)
 	fmt.Println("After", runtime.NumGoroutine())
 }
 
-/*运行结果 返回id会每次不相同，这是因为go的协程调用机制的顺序不同
+/*
+运行结果
 === RUN   TestFirsResponse
 Before 2
+当前返回id为9
+当前返回id为7
+当前返回id为1
+当前返回id为8
 当前返回id为2
+当前返回id为5
+当前返回id为4
+当前返回id为6
+当前返回id为0
+当前返回id为3
+
 After 2
---- PASS: TestFirsResponse (1.02s)
+--- PASS: TestFirsResponse (1.01s)
 PASS
 */
