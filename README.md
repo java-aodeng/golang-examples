@@ -63,7 +63,7 @@ ps：白天上班，晚上更新，尽量日更，比心
 
 [第27章 只运行一次](https://github.com/java-aodeng/golang-examples/blob/master/go-27/once_test.go)
 
-第28章 仅需任意任务完成 
+[第28章 仅需任意任务完成](https://github.com/java-aodeng/golang-examples/blob/master/go-28/first_response_test.go) 
 
 第29章 所有任务完成 
 
