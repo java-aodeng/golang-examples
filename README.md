@@ -67,7 +67,7 @@ ps：白天上班，晚上更新，尽量日更，比心
 
 [第29章 所有任务完成](https://github.com/java-aodeng/golang-examples/blob/master/go-29/all_done_test.go)
 
-第30章 对象池
+[第30章 对象池](https://github.com/java-aodeng/golang-examples/blob/master/go-30/obj_pool_test.go)
 
 第31章 sync.pool对象缓存
 
