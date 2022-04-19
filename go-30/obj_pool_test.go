@@ -23,6 +23,7 @@ type ObjPool struct {
 	bufChan chan *ReusableObj
 }
 
+//创建一个对象池
 func NewObjPool(numOfObj int) *ObjPool {
 	objPool := ObjPool{}
 	//创建的Buffered Channels 指定容量numOfObj
@@ -33,6 +34,7 @@ func NewObjPool(numOfObj int) *ObjPool {
 	return &objPool
 }
 
+//获取对象
 func (p *ObjPool) GetObj(timeout time.Duration) (*ReusableObj, error) {
 	select {
 	case ret := <-p.bufChan:
@@ -42,6 +44,7 @@ func (p *ObjPool) GetObj(timeout time.Duration) (*ReusableObj, error) {
 	}
 }
 
+//释放对象
 func (p *ObjPool) ReleaseObj(obj *ReusableObj) error {
 	select {
 	case p.bufChan <- obj:
@@ -53,6 +56,7 @@ func (p *ObjPool) ReleaseObj(obj *ReusableObj) error {
 }
 
 func TestObjPool(t *testing.T) {
+	//创建一个对象池子
 	pool := NewObjPool(10)
 	for i := 0; i < 11; i++ {
 		if v, err := pool.GetObj(time.Second * 1); err != nil {
