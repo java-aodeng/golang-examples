@@ -69,7 +69,7 @@ ps：白天上班，晚上更新，尽量日更，比心
 
 [第30章 对象池](https://github.com/java-aodeng/golang-examples/blob/master/go-30/obj_pool_test.go)
 
-第31章 sync.pool对象缓存
+[第31章 sync.pool对象缓存](https://github.com/java-aodeng/golang-examples/blob/master/go-31/sync_pool_test.go)
 
 第32章 单元测试 
 
