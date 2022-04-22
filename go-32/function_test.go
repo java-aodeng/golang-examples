@@ -27,7 +27,7 @@ func TestFailInCode(t *testing.T) {
 }
 
 /*
-运行结果：
+以上两个方法同时运行结果：可以看到区别和上面描述一样
 === RUN   TestErrorInCode
 Start
 End
