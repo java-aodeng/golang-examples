@@ -73,7 +73,7 @@ ps：白天上班，晚上更新，尽量日更，比心
 
 [第32章 单元测试](https://github.com/java-aodeng/golang-examples/blob/master/go-32/function_test.go) 
 
-第33章 Benchmark
+[第33章 Benchmark](https://github.com/java-aodeng/golang-examples/blob/master/go-33/benchmark_test.go)
 
 第34章 BDD 
 
