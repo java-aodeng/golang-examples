@@ -15,7 +15,7 @@ $ $GOPATH/bin/goconvey
 这里运行需要go的1.14版本，不然会出现 errors.Is的问题
 */
 import (
-	. "github.com/smartystreets/goconvey"
+	. "github.com/smartystreets/goconvey/convey"
 	"testing"
 )
 
