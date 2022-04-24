@@ -75,7 +75,7 @@ ps：白天上班，晚上更新，尽量日更，比心
 
 [第33章 Benchmark](https://github.com/java-aodeng/golang-examples/blob/master/go-33/benchmark_test.go)
 
-第34章 BDD 
+[第34章 BDD](https://github.com/java-aodeng/golang-examples/blob/master/go-34/bdd_test.go) 
 
 第35章 反射编程
 
