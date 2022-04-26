@@ -79,7 +79,7 @@ ps：白天上班，晚上更新，尽量日更，比心
 
 [第35章 反射编程](https://github.com/java-aodeng/golang-examples/blob/master/go-35/reflect_test.go)
 
-第36章 万能程序
+[第36章 万能程序](https://github.com/java-aodeng/golang-examples/blob/master/go-36/flexible_reflect_test.go)
 
 第37章 不安全编程
 
